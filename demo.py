@@ -1,4 +1,4 @@
 import secretflow as sf
 print("hello")
 print("hello2")
-print("hello3")6
+print("hello3")
