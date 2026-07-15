@@ -153,6 +153,20 @@ np.savez(
     label=alice_label    # 键名'label'，值是标签数据
 )
 
+'''
+alice_mnist.npz (压缩包)
+│
+├── train_x    →  (30000, 28, 28)  训练图片
+├── test_x     →  (5000, 28, 28)   测试图片
+├── train_y    →  (30000,)         训练标签
+└── test_y     →  (5000,)          测试标签
+
+train_x  = 训练图片 (x = 输入/特征)
+test_x   = 测试图片
+train_y  = 训练标签 (y = 输出/答案)
+test_y   = 测试标签
+'''
+
 # 保存 Bob 的数据
 np.savez(
     "flower_bob.npz",
