@@ -1,0 +1,36 @@
+2026-07-21 03:23:37.962 [error] [server.cpp:BRPC:1097] Fail to listen 127.0.0.1:9001
+2026-07-21 03:23:37.983 [warning] [channel.h:~Channel:163] Channel destructor is called before WaitLinkTaskFinish, try stop send thread
+2026-07-21 03:23:40.109 [error] [server.cpp:BRPC:1097] Fail to listen 127.0.0.1:9002
+2026-07-21 03:23:40.114 [warning] [channel.h:~Channel:163] Channel destructor is called before WaitLinkTaskFinish, try stop send thread
+2026-07-21 03:25:05.760 [error] [server.cpp:BRPC:1097] Fail to listen 127.0.0.1:9002
+2026-07-21 03:25:05.764 [warning] [channel.h:~Channel:163] Channel destructor is called before WaitLinkTaskFinish, try stop send thread
+2026-07-21 03:25:05.991 [error] [server.cpp:BRPC:1097] Fail to listen 127.0.0.1:9001
+2026-07-21 03:25:05.997 [warning] [channel.h:~Channel:163] Channel destructor is called before WaitLinkTaskFinish, try stop send thread
+2026-07-21 03:39:33.293 [error] [server.cpp:BRPC:1097] Fail to listen 127.0.0.1:9002
+2026-07-21 03:39:33.298 [warning] [channel.h:~Channel:163] Channel destructor is called before WaitLinkTaskFinish, try stop send thread
+2026-07-21 03:39:35.446 [error] [server.cpp:BRPC:1097] Fail to listen 127.0.0.1:9001
+2026-07-21 03:39:35.451 [warning] [channel.h:~Channel:163] Channel destructor is called before WaitLinkTaskFinish, try stop send thread
+2026-07-21 03:44:44.482 [error] [server.cpp:BRPC:1097] Fail to listen 127.0.0.1:9001
+2026-07-21 03:44:44.488 [warning] [channel.h:~Channel:163] Channel destructor is called before WaitLinkTaskFinish, try stop send thread
+2026-07-21 06:18:53.578 [error] [server.cpp:BRPC:1097] Fail to listen 172.18.0.2:9001
+2026-07-21 06:18:53.595 [warning] [channel.h:~Channel:163] Channel destructor is called before WaitLinkTaskFinish, try stop send thread
+2026-07-21 06:18:55.611 [error] [server.cpp:BRPC:1097] Fail to listen 172.18.0.3:9002
+2026-07-21 06:18:55.616 [warning] [channel.h:~Channel:163] Channel destructor is called before WaitLinkTaskFinish, try stop send thread
+2026-07-21 06:24:30.400 [error] [server.cpp:BRPC:1097] Fail to listen 172.18.0.2:9001
+2026-07-21 06:24:30.405 [warning] [channel.h:~Channel:163] Channel destructor is called before WaitLinkTaskFinish, try stop send thread
+2026-07-21 06:40:23.302 [error] [server.cpp:BRPC:1097] Fail to listen 172.18.0.2:9001
+2026-07-21 06:40:23.317 [warning] [channel.h:~Channel:163] Channel destructor is called before WaitLinkTaskFinish, try stop send thread
+2026-07-21 06:43:44.680 [error] [server.cpp:BRPC:1097] Fail to listen 172.18.0.2:9001
+2026-07-21 06:43:44.684 [warning] [channel.h:~Channel:163] Channel destructor is called before WaitLinkTaskFinish, try stop send thread
+2026-07-21 06:44:05.965 [error] [server.cpp:BRPC:1097] Fail to listen 172.18.0.2:9001
+2026-07-21 06:44:05.969 [warning] [channel.h:~Channel:163] Channel destructor is called before WaitLinkTaskFinish, try stop send thread
+2026-07-21 06:50:21.346 [error] [server.cpp:BRPC:1097] Fail to listen 172.18.0.2:9001
+2026-07-21 06:50:21.352 [warning] [channel.h:~Channel:163] Channel destructor is called before WaitLinkTaskFinish, try stop send thread
+2026-07-21 06:57:01.963 [error] [server.cpp:BRPC:1097] Fail to listen 127.0.0.1:9004
+2026-07-21 06:57:01.968 [warning] [channel.h:~Channel:163] Channel destructor is called before WaitLinkTaskFinish, try stop send thread
+2026-07-21 06:57:02.014 [error] [server.cpp:BRPC:1097] Fail to listen 127.0.0.1:9002
+2026-07-21 06:57:02.018 [warning] [channel.h:~Channel:163] Channel destructor is called before WaitLinkTaskFinish, try stop send thread
+2026-07-21 06:58:14.280 [error] [server.cpp:BRPC:1097] Fail to listen 127.0.0.1:9004
+2026-07-21 06:58:14.285 [warning] [channel.h:~Channel:163] Channel destructor is called before WaitLinkTaskFinish, try stop send thread
+2026-07-21 06:58:14.308 [error] [server.cpp:BRPC:1097] Fail to listen 127.0.0.1:9002
+2026-07-21 06:58:14.312 [warning] [channel.h:~Channel:163] Channel destructor is called before WaitLinkTaskFinish, try stop send thread
