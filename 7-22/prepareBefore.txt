@@ -1,0 +1,23 @@
+# ===== 1. 创建网络 =====
+docker network create --subnet=172.20.0.0/16 sf-network
+
+# ===== 2. 创建容器 =====
+cd /home/user/projects
+docker run -itd --name alice_container --network sf-network --ip 172.20.0.2 -v $(pwd)/7-22:/app my_sf_app bash
+docker run -itd --name bob_container --network sf-network --ip 172.20.0.3 -v $(pwd)/7-22:/app my_sf_app bash
+
+# ===== 3. Alice启动Ray =====
+docker exec -it alice_container bash -c "ray start --head --node-ip-address=172.20.0.2 --port=8085 --include-dashboard=False --disable-usage-stats"
+
+# ===== 4. Bob启动Ray =====
+docker exec -it bob_container bash -c "ray start --head --node-ip-address=172.20.0.3 --port=8085 --include-dashboard=False --disable-usage-stats"
+
+# ===== 5. 运行Alice代码 =====
+docker exec -it alice_container bash -c "cd /app && python3 alice.py"
+
+# ===== 6. 运行Bob代码（新终端） =====
+docker exec -it bob_container bash -c "cd /app && python3 bob.py"
+
+# ===== 7. 验证网络 =====
+docker exec alice_container ping -c 2 172.20.0.3
+docker exec bob_container ping -c 2 172.20.0.2
